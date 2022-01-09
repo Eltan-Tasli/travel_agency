@@ -10,8 +10,6 @@ public class SiteController {
     @PostMapping("/api/inscription")
     public void firstInscriptionRoad(@RequestBody Traveler eltan){
 
-        System.out.println("Cela fonctionne");
-
     }
 
     @GetMapping("/api/travels")
